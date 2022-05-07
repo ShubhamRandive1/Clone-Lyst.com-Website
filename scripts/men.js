@@ -50,7 +50,7 @@ function brandsList(){
 
 document.getElementById("allWomen").addEventListener("click", allWomensList);
 function allWomensList(){
-    window.location.href="allWomen.html";
+    window.location.href="allMen.html";
 }
 document.getElementById("sales").addEventListener("click", salesList);
 function salesList(){

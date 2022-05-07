@@ -31,8 +31,19 @@
 #bodyLeft{
     margin-top: 20px;
     width: 20%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
     /* border: 1px solid; */
     border-right: 1px solid black;
+}
+#bodyLeft>div>a{
+    color: black;
+    text-decoration: none;
+    
+}
+#bodyLeft>div>a:hover{
+    text-decoration: underline;
 }
 @media only screen and (min-width:70px)and (max-width:990px){
     #womenNavbar>div{

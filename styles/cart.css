@@ -1,0 +1,230 @@
+#cartBody{
+    width: 100%;
+    font-family: 'Lato', sans-serif; 
+    line-height: 25px;
+    background-color: #1c2938;
+}
+/* end of heade css */
+
+.wrapperAll{
+    background-color: #f2f9e8;
+    width: 40%;
+    margin: auto;
+}
+
+#cartHerder{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #d4424c;
+}
+/* Product list in cart css */
+#productsInCart{
+    width: 97%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    background-color: white;
+}
+#cartItems{
+    padding:20px ;
+    display: flex;
+    justify-content: space-between;
+}
+#productPic{
+  width: 130px;
+  height: 130px;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+}
+#productinfo{
+    width: 70%;
+}
+
+#priceTag{
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#itemMgmtDiv{
+    display:flex;
+    justify-content: space-between;
+}
+#manageQty{
+    display: flex;
+    width: 30%;
+    height: 30px;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+#manageQty>#decrease{
+    width: 33%;
+    height: 30px;
+    font-size: 40px;
+    background-color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#manageQty>#quantity{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#manageQty>#decrease:hover{
+    background-color: #00afef;
+    color: white;
+}
+#manageQty>#increase{
+    width: 33%;
+    height: 30px;
+    font-size: 30px;
+    border: none;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: #00afef;
+}
+#manageQty>#increase:hover{
+    background-color: #00afef;
+    color: white;
+}
+
+#deleteItemBtn{
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+
+/* end of Product list in cart css  */
+#coupanCode{
+    width: 100%;
+    /* border: 1px solid ;
+    border-color: lightgrey; */
+    border-radius: 5px;
+}
+#coupanCode>#coupanInput{
+    width: 79%;
+    height:35px;
+    border: none;
+    border: 1px solid;
+    border-color: lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 18px;
+}
+
+#apply{
+    height: 35px;
+    width: 19%;
+    margin-left:-5px;
+    border: 2px solid #00afef;
+    background-color: #d6f4ff;
+    color: #00afef;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 18px;
+}
+#coupanSection{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    font-family: 'Lato', sans-serif; 
+}
+
+#priceSection{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    font-family: 'Lato', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+#priceSection>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 40px; */
+    border-bottom: 1px solid rgb(245, 242, 242);
+    align-items: center;
+}
+#priceSection>#headingPrice{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid lightgray;
+}
+#priceSection>#headingPrice>#totalPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#priceSection>.des>div>h5{
+     font-size: 16px;
+   
+}
+#priceSection>.des>.price{
+    display: flex;
+    align-items: center;
+}
+.happyMsg{
+    width: atuo;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+   justify-content: center;
+   box-sizing: border-box;
+   padding-left: 15%;
+   padding-right: 15%;
+   background-color: #f2f9e8;
+   font-size: 17px;
+   font-weight: bold;
+}
+#currency{
+    margin-right: 20px;
+    height: 30px;
+    font-size: 20px;
+    width: 30px;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #82c341;
+}
+#percentDis{
+    color: #82c341;
+    
+}
+
+#savedPrice{
+    color:#82c341 ;
+    margin-right: 10px;
+}
+#priceSection>#proceedPay{
+    background-color: #00afef;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+

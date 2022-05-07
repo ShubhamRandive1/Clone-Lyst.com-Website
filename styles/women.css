@@ -1,0 +1,41 @@
+#womenNavbar{
+ display: flex;
+ width: 100%;
+ gap: 30px;
+ padding: 10px; 
+ padding-left: 2%;
+ padding-right: 2%;
+ border-bottom: 1px solid black;
+}
+#womenNavbar>div{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-tag{
+    height: 15px;
+    width: 15px;
+    color: red;
+    transform: rotate(90deg);
+}
+#body{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#bodyLeft{
+    margin-top: 20px;
+    width: 20%;
+    /* border: 1px solid; */
+    border-right: 1px solid black;
+}
+@media only screen and (min-width:70px)and (max-width:990px){
+    #womenNavbar>div{
+        font-size: 13px;
+    }
+}

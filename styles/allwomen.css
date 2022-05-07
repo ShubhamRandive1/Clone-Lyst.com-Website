@@ -1,13 +1,34 @@
-.body{
-    width: 65%;
+#bodyWrapper{
+    width: 70%;
     margin: auto;
+    background-color: #f2f2f2;
+}
+
+.body{
+    width: 100%;
+    /* margin: auto; */
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+#trending{
+    color: gray;
+
+    margin-top: 20px;
+    padding-left: 2%;
 }
 #upperbody{
+    background-color: white;
+    padding-left: 2%;
+    margin-top: 20px;
     display: grid;
+    padding: 20px;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
+}
+#bodyWrapper>h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 #upperbody>div{
     display: flex;
@@ -17,6 +38,44 @@
     width: 20px;
     height: 15px;
 }
+#upperbody>div>a{
+    color: black;
+    text-decoration: none;
+}
+#upperbody>div>a:hover{
+    text-decoration: underline;
+}
+#middlebody{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#middlebody>div{
+    background-color: white;
+}
+#middlebody>div>div>img{
+    width: 100%;
+}
+#middlebody>div>div>p>a{
+    color: black;
+    text-decoration: none;
+}
+#middlebody>div>div>p>a:hover{
+    text-decoration: underline;
+}
+#middlebody>div>div>h3>a{
+    color: black;
+    text-decoration: none;
+}
+#middlebody>div>div>h3>a:hover{
+    text-decoration: underline;
+}
+.info{
+    padding: 4%;
+    box-sizing: border-box;
+}
 
 @media only screen and (min-width:70px)and (max-width:990px){
     #upperbody{
@@ -24,6 +83,9 @@
     } 
     #upperbody>div>h3{
         font-size: 20px;
+    }
+    #middlebody{
+        grid-template-columns: repeat(1,1fr);
     }
 }
 

@@ -52,4 +52,6 @@ document.getElementById("sales").addEventListener("click", salesList);
 function salesList(){
     window.location.href="menSales.html";
 }
-
+// footer------------------------------------------->
+import footer from"../footer.js"
+document.getElementById("footer").innerHTML=footer();

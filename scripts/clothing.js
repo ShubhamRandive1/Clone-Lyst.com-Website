@@ -10,6 +10,9 @@ document.getElementById("titalCloths").innerText=clothingdata.length+" "+"Items 
 displayData(displayArea,clothingdata);
 
 
+import footer from"../footer.js"
+document.getElementById("footer").innerHTML=footer();
+
 // Sorting  starts************************
 //   let selected = document.getElementById("sort");
 //   selected.addEventListener("change",sortfun);

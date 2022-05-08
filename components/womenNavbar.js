@@ -19,9 +19,9 @@ let clothing=()=>{
 
 let shoes=()=>{
     return `
-    <div> <a href="allShoes.html"> All Shoes </a> </div>
-    <div> <a href="boot.html"> Boots </a> </div>
-    <div> <a href="flats.html"> Flats </a> </div>
+    <div> <a href="allWomenShoes.html"> All Shoes </a> </div>
+    <div> <a href="womenboot.html"> Boots </a> </div>
+    <div> <a href="womenflats.html"> Flats </a> </div>
     <div> <a href=""> Heels </a> </div>
     <div> <a href=""> Sneakers </a> </div>
     <div> <a href=""> New Arrivals in Shoes </a> </div>

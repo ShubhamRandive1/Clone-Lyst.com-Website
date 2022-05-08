@@ -142,10 +142,9 @@ body {
 }
 #titalCloths {
   font-size: 40px;
+  /* text-decoration: line-through; */
 }
-#rockymonster>div{
-  /* border: 1px solid red; */
-}
+
   #sort {
     width: 78%;
     height: 35px;

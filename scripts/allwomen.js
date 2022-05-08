@@ -2,6 +2,9 @@ import navbar from "../components/navbar.js";
 // import { navbarMedium } from "../components/mdeiumNavbar.js";
 let navbar1=document.getElementById("navbar");
 navbar1.innerHTML=navbar;
+
+import footer from"../footer.js"
+document.getElementById("footer").innerHTML=footer();
 // let navbar2=document.getElementById("navbar2");
 
 

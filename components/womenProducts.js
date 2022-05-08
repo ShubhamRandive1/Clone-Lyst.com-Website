@@ -2,7 +2,7 @@
 let womenProducts = [
   {
     id: 1,
-		type:"Coat",
+		type:"Dress",
 		brand:"Canada Goose",
 		image: "https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=800&qlt=default&fmt.jp2.qlt=70&fmt=auto",
 		name: "Women's Elwin Black Label Parka",
@@ -42,7 +42,7 @@ let womenProducts = [
   },
   {
     id: 1,
-		type:"Coat",
+		type:"Dress",
 		brand:"Nasty Gal",
 		image: "https://cdna.lystit.com/520/650/n/photos/nastygal/a3586e8c/nasty-gal-designer-blue-Floral-Jacquard-Balloon-Sleeve-Skater-Mini-Dress.jpeg",
 		name: "Women's Blue Floral Jacquard Balloon Sleeve Skater Mini Dress",
@@ -265,7 +265,7 @@ let womenProducts = [
         type:"Coat",
         brand:"Nasty Gal",
         image: "https://cdna.lystit.com/200/250/tr/photos/nastygal/5279a116/nasty-gal-designer-mid-grey-Twill-Oversized-Trench-Coat.jpeg",
-        name: "Nasty Gal",
+        name: "Women's Natural Faux Leather Button Down Longline Trench Coat",
         price: 86,
         strickedoff: "$207.00",
         categories: "Cloths",
@@ -407,13 +407,10 @@ function displayData(displayArea,data) {
     let names = document.createElement("p");
     names.innerText = el.name;
 
-
-   
-
     let strikedPrice = document.createElement("p");
     strikedPrice.innerText=el.strickedoff;
-    
-
+    strikedPrice.style.textDecoration="line-through"
+    strikedPrice.style.marginLeft="20%";
     let price = document.createElement("p");
     price.innerText = "$"+el.price;
     price.style.color="green";

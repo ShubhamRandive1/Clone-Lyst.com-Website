@@ -1,4 +1,4 @@
-import navbar from "../homepage/components/navbar.js"
+import navbar from "../scripts/navbar.js";
 
 document.getElementById("navbar").innerHTML = navbar();
 

@@ -165,3 +165,28 @@ body {
      grid-template-columns: repeat(4,1fr);
      grid-template-rows: auto;
    }
+
+   @media only screen and (min-width:381px)and (max-width:990px){
+    #displayProducts{
+      grid-template-columns: repeat(2,1fr);
+    }
+    #leftsidemonster{
+      width: 0%;
+      visibility: hidden;
+    }
+    #rightsidemonster{
+      width: 100%;
+    }
+   }
+   @media only screen and (min-width:70px)and (max-width:381px){
+    #displayProducts{
+      grid-template-columns: repeat(1,1fr);
+    }
+    #leftsidemonster{
+      width: 0%;
+      visibility: hidden;
+    }
+    #rightsidemonster{
+      width: 100%;
+    }
+   }

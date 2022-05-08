@@ -1,13 +1,20 @@
 #footer{
     background-color: #f5f4f2;
     width: 100%;
-     display: grid;
-    grid-template-columns: repeat(2,1fr); 
+    display: flex;
+    justify-content: space-around;
     padding-top: 50px;
      margin: auto; 
     
 }
+#footer>div{
+  margin: auto; 
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
 #firstone>img{
+   
     margin-top: 20px;
     width: 300px;
 }
@@ -55,8 +62,12 @@
 }
 #writtenfooter>div>p{
   font-family:"Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
 font-size: 14px;
 line-height: 20px;
 font-style: normal;
 font-weight: 300;
+}
+#writtenfooter>div>p:hover{
+  text-decoration: underline;
 }

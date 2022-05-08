@@ -56,7 +56,7 @@
                 qty++;
                 quantity.innerText=qty;
                 totalprice=totalprice+(Number(elem.price));
-                total.innerText=totalprice;
+                total.innerText=Math.floor(totalprice);
                 console.log(totalprice);
                 qtyPrice=Number(elem.price)*(qty-1);
                 price.innerText=Number(elem.price)+qtyPrice;
@@ -98,7 +98,7 @@
             localStorage.setItem("mamaEarthCartCount", count);
 
             totalprice=totalprice-(Number(elem.price)*quantity.innerText);
-            total.innerText=totalprice;
+            total.innerText=Math.floor(totalprice);
            
         });
         console.log(totalprice);
@@ -151,7 +151,7 @@
         shippingCost.innerText=40;
         shippingCharge=shippingCost.innerText;
         var priceWithShippingCharge=Number(total.innerText);
-        total.innerText=priceWithShippingCharge+40;
+        total.innerText=Math.floor(priceWithShippingCharge+40);
     }
     else{
         total.innerText=0;

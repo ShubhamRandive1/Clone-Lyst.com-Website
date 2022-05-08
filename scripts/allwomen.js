@@ -33,10 +33,6 @@ navbar1.innerHTML=navbar;
 //     // 
 
 
-
-
-
-
 // function reloadPage() {
 //     var currentDocumentTimestamp = new Date(performance.timing.domLoading).getTime();
 //     // Current Time //

@@ -2,13 +2,13 @@
 let clothing=()=>{
     return `
     
-    <div> <a href=""> All Clothing </a> </div>
-    <div> <a href=""> Beachwear </a> </div>
-    <div> <a href=""> Coats </a> </div>
-    <div> <a href=""> Dresses </a> </div>
-    <div> <a href=""> Hosiery </a> </div>
+    <div> <a href="clothing.html"> All Clothing </a> </div>
+    <div> <a href="coat.html"> Coats </a> </div>
+    <div> <a href="dresses.html"> Dresses </a> </div>
+    <div> <a href="hosiery.html"> Hosiery </a> </div>
     <div> <a href=""> Jackets </a> </div>
     <div> <a href=""> Jeans </a> </div>
+    <div> <a href=""> Beachwear </a> </div>
     <div> <a href=""> Jumpsuits </a> </div>
     <div> <a href=""> Knitwear </a> </div>
     <div> <a href=""> Lingerie </a> </div>
@@ -19,9 +19,9 @@ let clothing=()=>{
 
 let shoes=()=>{
     return `
-    <div> <a href=""> All Shoes </a> </div>
-    <div> <a href=""> Boots </a> </div>
-    <div> <a href=""> Flats </a> </div>
+    <div> <a href="allShoes.html"> All Shoes </a> </div>
+    <div> <a href="boot.html"> Boots </a> </div>
+    <div> <a href="flats.html"> Flats </a> </div>
     <div> <a href=""> Heels </a> </div>
     <div> <a href=""> Sneakers </a> </div>
     <div> <a href=""> New Arrivals in Shoes </a> </div>
@@ -48,8 +48,8 @@ let access=()=>{
 }
 let bags=()=>{
     return `
-    <div> <a href=""> All Bags </a> </div>
-    <div> <a href=""> Backpacks </a> </div>
+    <div> <a href="allBags.html"> All Bags </a> </div>
+    <div> <a href="backpacks.html"> Backpacks </a> </div>
     <div> <a href=""> Bag accessories </a> </div>
     <div> <a href=""> Beach and straw bags </a> </div>
     <div> <a href=""> Belt bags </a> </div>

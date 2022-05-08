@@ -7,7 +7,7 @@ womenlink.style.textDecoration="underline";
 
 import{clothing,shoes,access,bags,jewelry,brands} from "../components/womenNavbar.js"
 let bodyLeftContent=document.getElementById("bodyLeft");
-
+bodyLeftContent.innerHTML=clothing();
 document.getElementById("clothing").addEventListener("click", clothingList);
 function clothingList(){
     bodyLeftContent.innerHTML=null;

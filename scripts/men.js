@@ -11,7 +11,7 @@ womenlink.style.textDecoration="none";
 
 import{clothing,shoes,access,bags,jewelry,brands} from "../components/mensNavbar.js"
 let bodyLeftContent=document.getElementById("bodyLeft");
-
+bodyLeftContent.innerHTML=clothing();
 document.getElementById("clothing").addEventListener("click", clothingList);
 function clothingList(){
     bodyLeftContent.innerHTML=null;

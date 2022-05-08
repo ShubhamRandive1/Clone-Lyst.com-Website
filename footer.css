@@ -1,0 +1,62 @@
+#footer{
+    background-color: #f5f4f2;
+    width: 100%;
+     display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    padding-top: 50px;
+     margin: auto; 
+    
+}
+img{
+    margin-top: 20px;
+    width: 300px;
+}
+ #writtenfooter{
+   display: grid;
+  
+   grid-template-columns: repeat(2,1fr);
+}
+.green{
+   
+    background-color: #00b67a;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+#trust{
+    display: flex;
+    gap: 10px;
+}
+#rating{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.ogreen{
+  color: #00b67a;
+}
+#trustline{
+  text-align: center;
+  font-family: "Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+
+}
+#firstone{
+  padding-left: 100px;
+}
+#writtenfooter>div>h3{
+  font-family: "Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  
+}
+#writtenfooter>div>p{
+  font-family:"Suisse Intl", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 20px;
+font-style: normal;
+font-weight: 300;
+}

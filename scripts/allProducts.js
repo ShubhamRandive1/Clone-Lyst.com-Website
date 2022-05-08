@@ -7,7 +7,7 @@ let displayArea=document.querySelector("#displayProducts");
 //     if(elem.type=="Dress")
 //     return elem;
 // });
-document.getElementById("titalCloths").innerText=clothingdata.length+" "+"Items ";
+document.getElementById("titalCloths").innerText=fatchedData.length+" "+"Items ";
 displayData(displayArea,fatchedData);
 
 

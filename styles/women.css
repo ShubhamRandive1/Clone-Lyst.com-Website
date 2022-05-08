@@ -27,26 +27,46 @@
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
+    display: flex;
+    gap: 1%;
 }
 #bodyLeft{
-    margin-top: 20px;
     width: 20%;
+}
+#bodyLeft>#menus{
+    margin-top: 20px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 15px;
+    /* overflow: scroll; */
     /* border: 1px solid; */
     border-right: 1px solid black;
 }
-#bodyLeft>div>a{
+#bodyLeft>#menus>div>a{
     color: black;
     text-decoration: none;
     
 }
-#bodyLeft>div>a:hover{
+#bodyLeft>#menus>div>a:hover{
     text-decoration: underline;
+}
+
+#bodyRight{
+    width: 75%;
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: auto;
 }
 @media only screen and (min-width:70px)and (max-width:990px){
     #womenNavbar>div{
         font-size: 13px;
+    }
+    #bodyLeft{
+        width: 0%;
+        visibility: hidden;
+    }
+    #bodyRight{
+        grid-template-columns: repeat(2,1fr); 
     }
 }

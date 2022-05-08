@@ -6,7 +6,7 @@ womenlink.style.color="black";
 womenlink.style.textDecoration="underline";
 
 import{clothing,shoes,access,bags,jewelry,brands} from "../components/womenNavbar.js"
-let bodyLeftContent=document.getElementById("bodyLeft");
+let bodyLeftContent=document.getElementById("menus");
 bodyLeftContent.innerHTML=clothing();
 document.getElementById("clothing").addEventListener("click", clothingList);
 function clothingList(){
@@ -53,5 +53,17 @@ function salesList(){
     window.location.href="menSales.html";
 }
 // footer------------------------------------------->
+
+import {womenProductData,displayData} from "../components/womenProducts.js";
+
+let fatchedData=womenProductData();
+
+let displayArea=document.querySelector("#bodyRight");
+// let clothingdata=fatchedData.filter((elem)=>{
+//     if(elem.categories=="Bags")
+//     return elem;
+// });
+// document.getElementById("titalCloths").innerText=fatchedData.length+" "+"Items ";
+displayData(displayArea,fatchedData);
 import footer from"../footer.js"
 document.getElementById("footer").innerHTML=footer();

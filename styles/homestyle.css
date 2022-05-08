@@ -3,7 +3,7 @@
     /* text-decoration: none; */
     color: black;
     margin:auto;
-    
+    text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -13,7 +13,6 @@
 #header>a>img{
    width: 100%;
    height: 75vh;
-   margin-top: 5%;
    border-bottom: 1px solid black;
 }
 
@@ -22,7 +21,7 @@
         width: 100%;
         height: 30vh;
         border-bottom: 1px solid black;
-        margin-top: 5%;
+       
     }
 }
     
@@ -33,7 +32,7 @@
         width: 100%;
         height: 30vh;
         border-bottom: 1px solid black;
-        margin-top: 5%;
+       
     }
     
 }
@@ -274,21 +273,26 @@
         background: rgb(0, 0, 0) !important;
     }
     
-    #slider2 a {
+    #slider2>a {
         
        display:inline-block;
        margin-left:2%;
      font-family: Georgia, 'Times New Roman', Times, serif;  
         font-size: larger;
+        text-decoration: none;
         font-weight:bold;
-     
+        color: black;
         font-weight:bold;
        
        max-height:340px;
     }
     
+#selection>div{
 
-/* break1 */
+}
+.list>p{
+
+}
 
 
 @media screen and (max-width:786px){
@@ -354,12 +358,14 @@
         background: rgb(0, 0, 0) !important;
     }
     
-    #slider22 a {
+    #slider22>a {
         
        display:inline-block;
         margin-left:2%;
         font-weight:bold;
-        font-family: Georgia, 'Times New Roman', Times, serif;  
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color: black;
+        text-decoration: none; 
         font-size: larger;
        max-height:340px;
     }
@@ -430,11 +436,13 @@
         background: rgb(0, 0, 0) !important;
     }
     
-    #slider3 a {
+    #slider3>a {
         
        display:inline-block;
         margin-left:2%;
-     font-family: Georgia, 'Times New Roman', Times, serif;  
+     font-family: Georgia, 'Times New Roman', Times, serif; 
+     color: black;
+     text-decoration: none; 
         font-size: larger;
         font-weight:bold;
        max-height:340px;
@@ -450,7 +458,7 @@
         height:35vh;
         text-align : top;
         align-items:top;
-        font-size:30px;
+        /* font-size:30px; */
         margin-top:-27%;
         margin-bottom:10%
 

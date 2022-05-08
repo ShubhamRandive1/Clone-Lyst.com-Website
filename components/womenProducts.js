@@ -426,7 +426,7 @@ function displayData(displayArea,data) {
     div.addEventListener("click", productDetail);
     function productDetail(){
       localStorage.setItem("productDetails",JSON.stringify(el));
-      window.location.href="productDetail.html";
+      window.location.href="productDetails.html";
     }
     displayArea.append(div);
   });

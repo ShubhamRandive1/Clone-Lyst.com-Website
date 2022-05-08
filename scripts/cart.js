@@ -30,7 +30,7 @@
         var price=document.createElement("p");
         price.innerText=elem.price;
         var currency=document.createElement("p");
-        currency.innerText="₹";
+        currency.innerText="$";
         // Dive to bind price and currency together.
         var priceTag=document.createElement("div");
         priceTag.setAttribute("id","priceTag");
@@ -187,7 +187,7 @@
     
     var paydiscount=onlinePaymentDiscount*5/100;
     var onPayDiscount=document.querySelector("#onlinePayDis");
-    onPayDiscount.innerText=paydiscount;
+    onPayDiscount.innerText=Math.floor(paydiscount);
     onPayDiscount.style.color="green";
     var perDis=document.querySelector("#percentDis");
     perDis.style.color="green";

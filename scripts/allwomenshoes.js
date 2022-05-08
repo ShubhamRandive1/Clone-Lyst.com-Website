@@ -4,7 +4,7 @@ let fatchedData = womenProductData();
 
 let displayArea = document.querySelector("#displayProducts");
 let clothingdata = fatchedData.filter((elem) => {
-    if (elem.type == "Dress")
+    if (elem.categories == "Shoes")
         return elem;
 });
 document.getElementById("titalCloths").innerText = clothingdata.length + " " + "Items ";

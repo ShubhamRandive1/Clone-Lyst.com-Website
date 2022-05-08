@@ -402,7 +402,9 @@ function displayData(displayArea,data) {
 
     let details=document.createElement("div");
     details.style.padding="5%";
-    let brandnames = document.createElement("h5");
+    let brandnames = document.createElement("p");
+    brandnames.style.fontSize="20px";
+      brandnames.style.fontWeight="bold";
     brandnames.innerText = el.brand;
     let names = document.createElement("p");
     names.innerText = el.name;

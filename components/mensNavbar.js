@@ -2,17 +2,19 @@
 let clothing=()=>{
     return `
     
-    <div> <a href=""> All Clothing </a> </div>
-    <div> <a href=""> Beachwear </a> </div>
+    <div> <a href="menClothing.html"> All Clothing </a> </div>
+    <div> <a href="menShirt.html"> Shirts </a> </div>
+    <div> <a href="menSweters.html"> Sweaters and knitwear </a> </div>
     <div> <a href=""> Coats </a> </div>
     <div> <a href=""> Jeans </a> </div>
-    <div> <a href=""> Sweaters and knitwear </a> </div>
+    
     <div> <a href=""> Jackets </a> </div>
     <div> <a href=""> Jeans </a> </div>
+    <div> <a href=""> Beachwear </a> </div>
     <div> <a href=""> Shorts </a> </div>
     <div> <a href=""> Nightwear </a> </div>
     <div> <a href=""> Pants </a> </div>
-    <div> <a href=""> Shirts </a> </div>
+    
     <div> <a href=""> Suits </a> </div>
     <div> <a href=""> + More </a> </div>
     `;

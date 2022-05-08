@@ -107,15 +107,19 @@ body{
    margin-top: 1.5%;
    margin-bottom: 0%;  
 }
-#lowerNav>div{
+#lowerNav>a{
+    color: black;
+    text-decoration: none;
+}
+#lowerNav>a>div{
     cursor: pointer;
 }
-#lowerNav>div>p{
+#lowerNav>a>div>p{
     margin-top: 0%;
     margin-bottom: 0%;  
     font-size: 12px;  
 }
-#lowerNav>div>i{
+#lowerNav>a>div>i{
     margin-top: 0%;
     margin-bottom: 0%;  
     font-size: 20px;  

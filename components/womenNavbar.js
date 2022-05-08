@@ -48,10 +48,10 @@ let access=()=>{
 }
 let bags=()=>{
     return `
-    <div> <a href="allBags.html"> All Bags </a> </div>
+    <div> <a href="allWomenBags.html"> All Bags </a> </div>
     <div> <a href="backpacks.html"> Backpacks </a> </div>
+    <div> <a href="beachBags.html"> Beach and straw bags </a> </div>
     <div> <a href=""> Bag accessories </a> </div>
-    <div> <a href=""> Beach and straw bags </a> </div>
     <div> <a href=""> Belt bags </a> </div>
     <div> <a href=""> Briefcases and work bags </a> </div>
     <div> <a href=""> Bucket bags </a> </div>

@@ -1,6 +1,6 @@
 
-a{
-    text-decoration: none;
+#slider>a{
+    /* text-decoration: none; */
     color: black;
     margin:auto;
     
@@ -82,6 +82,14 @@ a{
     
     
   
+}
+
+#slider1>a{
+    /* text-decoration: none; */
+    color: black;
+    margin:auto;
+    
+    font-family: 'Times New Roman', Times, serif;
 }
 #slider a {
     transform: rotate(270deg);

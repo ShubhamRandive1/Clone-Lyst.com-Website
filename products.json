@@ -1,0 +1,424 @@
+[
+    {
+        "id": 1,
+        "image": "https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=800&qlt=default&fmt.jp2.qlt=70&fmt=auto",
+        "name": "Denim Short Sleeve Zip Front Boilersuit",
+        "price": "29",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    },
+    {
+        "id": 2,
+        "image": "https://media.nastygal.com/i/nastygal/agg55647_white_xl_1?w=800&qlt=default&fmt.jp2.qlt=70&fmt=auto",
+        "name": "Playing For Flower Floral Midi Dress",
+        "price": "39",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    },
+    {
+        "id": 3,
+        "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDWuapwfyFrLba_WgzOE2D381DfUael0sIjv6qvjff5-__PsRuZPgYjyQ1XocE-mYyM4zCVQF28H0vPDcs6MQ8K7EBg9UDadpegzbnGjIV8ZzC-mJu_hXrDg&usqp=CAs",
+        "name": "Hathor Luxury Satin Shirts",
+        "price": "1799",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    },
+    {
+        "id": 4,
+        "image": "https://cdna.lystit.com/520/650/n/photos/saksoff5th/9e599464/boss-by-hugo-boss-Grey-Cosephina-Plaid-Belted-Shirt-Dress.jpeg",
+        "name": "BOSS by HUGO BOSS",
+        "price": "345.99",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    },
+    {
+        "id": 5,
+        "image": "bike-5.jpeg",
+        "name": "Royal Blue puff sleeve midi Dress with belt (Set of 2) (L)",
+        "price": "420.50",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    },
+    {
+        "id": 6,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/l/d/ldrvggt800n21662993-cmy-teal_1.jpg?rnd=20200526195200",
+        "name": "Teal V Neck Flared Sleeves Long Dress With Camisole (Set of 2)",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    }
+
+    {
+        "id": 7,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/l/d/ldrvggt800n21662993-cmy-teal_1.jpg?rnd=20200526195200",
+        //https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/l/d/tr:w-540,/ldrvggt800n21662993-cmy-teal_2.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/l/d/tr:w-540,/ldrvggt800n21662993-cmy-teal_3.jpg?rnd=20200526195200 
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/l/d/tr:w-540,/ldrvggt800n21662993-cmy-teal_4.jpg?rnd=20200526195200
+        "name": "Teal V Neck Flared Sleeves Long Dress With Camisole (Set of 2)",
+        "price": "1299.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    }
+
+    {
+        "id": 8,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/p/p/pp-poppi00000243_1_b8085df8.jpg?rnd=20200526195200",
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/p/tr:w-540,/pp-poppi00000243_3_21081216.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/p/tr:w-540,/pp-poppi00000243_4_cb22a1cf.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/p/p/pp-poppi00000243_5_a9f8f703.jpg?rnd=20200526195200
+        "name": "Grey Solid Reine Dres",
+        "price": "4205.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    }
+
+    {
+        "id": 9,
+        "id": 18,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_1_3c49ae52.jpg?rnd=20200526195200",
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_3_1cba0fda.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_5_cbde5636.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_6_3883df80.jpg?rnd=20200526195200
+        "name": "Brown Your Woven Love Bag",
+        "price": "1677.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 10,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/h/o/tr:w-540,/ho9002kl-db_1.jpg?rnd=20200526195200",
+        "name": "Brown Large Quilted Tassel Handbag",
+        "price": "1390.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 11,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/l/p/tr:w-540,/lp-lwhb02276brown_1.jpg?rnd=20200526195200",
+        "name": "Brown Patterned Handbag",
+        "price": "1749.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 12,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/e/4/tr:w-540,/e45564dTW_ENT00012035_1.jpg?rnd=20200526195200",
+        "name": "Brown Crushing Over You Hand Bag",
+        "price": "2316.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 13,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/1/1/tr:w-540,/11ca307B51-BRWN_1.jpg?rnd=20200526195200",
+        "name": "Brown Textured Bag Handbags",
+        "price": "1949.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 14,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 15,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/l/p/tr:w-540,/lp-lwhb02483brown_1.jpg?rnd=20200526195200",
+        "name": "Brown Patterned Handbag",
+        "price": "1744.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 16,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/8/4/tr:w-540,/8490e39RS_RASHK00000011_1.jpg?rnd=20200526195200",
+        "name": "UNICA Handbags",
+        "price": "2400.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 17,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/7/574c66fNYFTHGU000038_1.jpg?rnd=20200526195200",
+        "name": "Coffee Brown Crescent Shoulder Bag",
+        "price": "2465.00",
+        "quantity": 1,
+        "type": "bag",
+        "gender": "female"
+    }
+
+    {
+        "id": 18,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_1_3c49ae52.jpg?rnd=20200526195200",
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_3_1cba0fda.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_5_cbde5636.jpg?rnd=20200526195200
+        // https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/t/w/tr:w-540,/twenty-dresses-hb0354_6_3883df80.jpg?rnd=20200526195200
+        "name": "Brown Your Woven Love Bag",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "female"
+    }
+
+    {
+        "id": 19,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 20,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 21,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 22,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 23,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-550,/pub/media/catalog/product/2/f/2f3f144SLT-175852_1.jpg?rnd=20200526195200",
+        "name": "Men Official Marvel Chibi Pattern Multi Summer Shirts",
+        "price": "999.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 24,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/e/tr:w-540,/bear-andreas-mr_1_69d77eb7.jpg?rnd=20200526195200",
+        "name": "Men's Checked Slim Fit Long Sleeves Maroon Shirt",
+        "price": "1213.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 25,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-603,/pub/media/catalog/product/2/1/215m-shbl_1_dcbfd72b.jpg?rnd=20200526195200",
+        "name": "Pure Handblock Flower Patterned Shirt",
+        "price": "1350.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 26,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/tr:w-540,/f725bcaN22MSHF-K11944WHBU_1.jpg?rnd=20200526195200",
+        "name": "Men White & Blue Checked Full Sleeves Casual Shirt",
+        "price": "726.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 27,
+        "image": "",
+        "name": "",
+        "price": "1399.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 28,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/b/e/tr:w-540,/beae9b2L-A1336-0000_1.jpg?rnd=20200526195200",
+        "name": "Men Mustard Yellow Slim Fit Corduroy Casual Shirt",
+        "price": "1700.00",
+        "quantity": 1,
+        "type": "clothing",
+        "gender": "male"
+    }
+
+    {
+        "id": 29,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-603,/pub/media/catalog/product/3/6/36970509_1.jpg?rnd=20200526195200",
+        "name": "Navy Blue Lazy Knit Slip On Sneakers",
+        "price": "1649.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 30,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/a/r/tr:w-540,/arrow-2fd21161g07_1_f743ebc4.jpg?rnd=20200526195200",
+        "name": "Bronel 2.0 Grey Sneakers",
+        "price": "2400.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 31,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/0/1/tr:w-540,/01e146bRTE3521_1.jpg?rnd=20200526195200",
+        "name": "Men Black Derby Shoes",
+        "price": "2099.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 32,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/u/n/tr:w-540,/uni-croc0888_1_a1bb767d.jpg?rnd=20200526195200",
+        "name": "Black Classic Unisex Clogs",
+        "price": "3995.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 33,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/c/1/tr:w-540,/c10b5cd6G-852-G-DGRY-BLK-1.jpg?rnd=20200526195200",
+        "name": "Tormentor Grey Running Shoes For Men",
+        "price": "1619.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 34,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/3/c/tr:w-540,/3cd3a66JUDGE001_1.jpg?rnd=20200526195200",
+        "name": "Judge Solid Black Dress Loafers",
+        "price": "9500.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 35,
+        "image": "",
+        "name": "",
+        "price": "1700.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 36,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-473.915169,/pub/media/category_information/27860c88186d74a22021_06_15.jpg?rnd=20200526195200",
+        "name": "campus extreme shoes for man",
+        "price": "1700.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 37,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/5/9/tr:w-540,/591184-black_1_6fb57ad6.jpg?rnd=20200526195200",
+        "name": "Faux Leather Black Sneakers",
+        "price": "1100.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 38,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/r/e/tr:w-540,/red-chief-rc3483-014_1_ed244dc0.jpg?rnd=20200526195200",
+        "name": "Green Leather Sneaker Shoe",
+        "price": "2098.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 39,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/2/0/tr:w-540,/20ba279CA_MP0409_1.jpg?rnd=20200526195200",
+        "name": "First White Running Shoes For Men",
+        "price": "1530.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 40,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-603,/pub/media/catalog/product/1/1/11g-781-g-lgry-mgry_1_8fe792ca.jpg?rnd=20200526195200",
+        "name": "Everest Grey Running Shoes For Men",
+        "price": "1275.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+
+    {
+        "id": 41,
+        "image": "https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-603,/pub/media/catalog/product/c/g/cg-353-g-rst-gry_1_72c7991b.jpg?rnd=20200526195200",
+        "name": "Enter-2 Red Running Shoes For Men",
+        "price": "787.00",
+        "quantity": 1,
+        "type": "Footwear",
+        "gender": "male"
+    }
+]
+// 4. https://cdna.lystit.com/520/650/n/photos/saksoff5th/9e599464/boss-by-hugo-boss-Grey-Cosephina-Plaid-Belted-Shirt-Dress.jpeg
+// https://cdna.lystit.com/48/48/n/photos/saksoff5th/3e98448b/boss-by-hugo-boss-Grey-Cosephina-Plaid-Belted-Shirt-Dress.jpeg
+// 5. https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/8/e/8e914bdSwissBoss-DRS00222_1.jpg?rnd=20200526195200
+// https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-160,/pub/media/catalog/product/8/e/8e914bdSwissBoss-DRS00222_3.jpg?rnd=20200526195200
+// 6. https://adn-static1.nykaa.com/nykdesignstudio-images/tr:w-960,/pub/media/catalog/product/l/d/ldrvggt800n21662993-cmy-teal_1.jpg?rnd=20200526195200

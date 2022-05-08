@@ -1,398 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lyst.com Home Page</title>
-        <link rel="stylesheet" href="./styles/homestyle.css">
-        <link rel="stylesheet" href="./styles/common.css">
-        <link rel="stylesheet" href="./styles/allwomen.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/a9dbdcc6e4.js" crossorigin="anonymous"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card data</title>
+    <style>
+        .product {
+            position: relative;
+            overflow: hidden;
+            padding: 20px 0;
+            ;
+        }
+
+        .product-category {
+            padding: 0 10vw;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .product-container {
+            padding: 0 10vw;
+            display: flex;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+        }
+
+        .product-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .product-card {
+            flex: 0 0 auto;
+            width: 250px;
+            height: 450px;
+            margin-right: 40px;
+        }
+
+        .product-image {
+            position: relative;
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .product-thumb {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .onsale-tag {
+            position: absolute;
+            background: black;
+            padding: 5px;
+            color: white;
+            right: 10px;
+            top: 10px;
+        }
+
+        .card-btn {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translate(-50%);
+            padding: 10px;
+            width: 90%;
+            border: None;
+            outline: none;
+            background: #fff;
+            transition: 0.5s;
+            cursor: pointer;
+            /* opacity: 0; */
+        }
+
+        .product-card:hover .card-btn {
+            /* opacity:1; */
+        }
+
+        .product-info {
+            width: 100%;
+            height: 100px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+
+        .product-short-des {
+            width: 100%;
+            height: 20px;
+            line-height: 20px;
+            overflow: hidden;
+            text-transform: capitalize;
+            margin: 5px 0;
+        }
+
+        .price {
+            font-weight: 900;
+            font-size: 20px;
+            color: #e5577c;
+        }
+        .actual-price{
+            margin-left: 20px;
+            opacity: 0.5;
+            text-decoration: line-through;
+            color: black;
+        }
+    </style>
+    <!-- <script src="https://kit.fontawesome.com/756df3bfd1.js" crossorigin="anonymous"></script> -->
 </head>
-    
 
-    <body>
-        
-<div id="navbar"></div>
-        <div>
-            <div id= 'header'>
-                <a
-                    href="https://lyst.app.link/rcdNHcFLL7?web_session_id=cf9818b9-ba2a-40c1-9d37-e86155c28fd4&page_type=homepage&page_sub_type=ungendered&web_device_id=ca078add-7a7b-46d1-aacd-3a27ad0cc059&web_pageview_id=4beb5819-7a1f-487e-ab78-8ca4a278350a&%24deeplink_path=https%3A%2F%2Flyst.com%2F"><img
-                        src=
-                        'https://cdna.lystit.com/cms/ENG_header_desktop_bddf9b3474_884ff704d3.jpg'/></a>
+<body>
+    <section class="product">
+        <h3 class="product-category">More cute stuff</h3>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="onsale-tag">On sale</span>
+                    <img src="https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=700&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+                        class="product-thumb" alt="pro1-img1">
+                        <button class="card-btn"> wishlist </button>
+                </div>
+
+                <div class="product-info">
+                    <p class="product-short-des">Denim Short Sleeve Zip Front Boilersuit</p>
+                    <span class="actual-price">$29</span> <span class="price">$19</span>
+                </div>
             </div>
-        <div class="slider-box">
-            <div id="slider">
-                <a href="product1.html">CRISP
-                    MONOCHROME
-                    <img
-                        src='https://cdna.lystit.com/cms/Image_from_i_OS_570_8c4ba5ce61.png'>
-            </a>
-                <a href="product2.html">ONE
-                    STEP AHEAD
-                    <img
-                        src="https://cdna.lystit.com/cms/OSA_24_03_22_09a1fa2732.jpeg">
-                </a>
-                <a href="product3.html">REFINED
-                    GLAMOUR
-                    <img
-                        src="https://cdna.lystit.com/cms/REFINED_GLAMOUR_c966d97813.jpeg"></a>
-                <a href="product1.html">NEW
-                    CLASSICS
-                    <img
-                        src="https://cdna.lystit.com/cms/NEW_CLASSICS_f5f19784b9.jpeg"></a>
-                <a href="product2.html">30
-                    UNDER 300
-                    <img
-                        src="https://cdna.lystit.com/cms/17537008_38224404_800_7b2d22a8aa.png"></a>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="onsale-tag">On sale</span>
+                    <img src="https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=700&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+                        class="product-thumb" alt="pro1-img1">
+                        <button class="card-btn"> wishlist </button>
+                </div>
+
+                <div class="product-info">
+                    <p class="product-short-des">Denim Short Sleeve Zip Front Boilersuit</p>
+                    <span class="actual-price">$29</span> <span class="price">$19</span>
+                </div>
             </div>
-            <div class="indicators">
-                <span id="btn1" class="active"></span>
-                <span id="btn2"></span>
-                <span id="btn3"></span>
-                <span id="btn4"></span>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="onsale-tag">On sale</span>
+                    <img src="https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=700&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+                        class="product-thumb" alt="pro1-img1">
+                        <button class="card-btn"> wishlist </button>
+                </div>
+
+                <div class="product-info">
+                    <p class="product-short-des">Denim Short Sleeve Zip Front Boilersuit</p>
+                    <span class="actual-price">$29</span> <span class="price">$19</span>
+                </div>
             </div>
-        </div>
-        
-        <div class="slider-box1">
-            <div id="slider1">
-                
-                <a href="http://">ITALIST:SHOP
-                    DESIGNER BRANDS & SAVE UP TO
-                    70%*
-                    <img
-                        src='https://cdna.lystit.com/cms/JPG_SS_22_RTW_TOP_THE_ATTICO_PANTS_DOLCE_and_GABBANA_BAG_PRADA_WOMAN_1_8a2611b9e1.jpg'>
-                </a>
-                <a href="https://"> DISCOVER THE ICONIC MYEA BAG - EMPORIO
-                    ARMANI
-                    <img
-                        src="https://cdna.lystit.com/cms/EA_My_EA_Bags_HP_Top_Lyst_3ab19a30d3.jpg">
-                </a>
-                <a href="https://"> MICHAEL KORS: YOUR FAVORITE STYLES ARE
-                    WAITING
-                    AND
-                    ON SALE
-                    <img
-                        src="https://cdna.lystit.com/cms/LINA_BAG_ASSET_600x600_01800ffbe1.jpg">
-                </a>
-                <a href="https://">THE MULBERRY SOFTIE - A BAG MADE TO BE
-                    SQUEEZED
-                    <img
-                        src="https://cdna.lystit.com/cms/Screenshot_2022_03_08_at_14_40_26_4809776918.png">
-                </a>
-                <a href="https://">ENJOY
-                    30% OFF SELECTED MUST-HAVE PIECES ON
-                    24S
-                    <img
-                        src="https://cdna.lystit.com/cms/600x600_HP_TOP_LYST_03befce6d4.png">
-                </a>
-            </div>
-            <div class="indicators1">
-                <span id="btn11" class="active"></span>
-                <span id="btn22"></span>
-                <span id="btn33"></span>
-                <span id="btn44"></span>
-            </div>
-            </div>
-           
-        </div>
-
-        
-            <div class="slider-box2">
-                <div id="slider2">
-                    <a href="http://">PATOU
-                        <img
-                            src='https://cdna.lystit.com/cms/My_Post_81_76121ffa01.jpg'>
-                    </a>
-                    <a href="http://"> GUCCI
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_rail_gucci_eca9e74796.jpg">
-                    </a>
-                    <a href="https://">SAINT LAURENT
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_rail_saint_laurent_2031eb80f7.jpeg">
-                    </a>
-                    <a href="https://">OFF-WHITE C/O VIRGIL ABLOH
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_rail_off_white_co_virgil_abloh_d8c6b37a9f.jpeg">
-                    </a>
-                    <a href="https://">BALENCIAGA
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_rail_balenciaga_215cbc0fe0.jpeg">
-                    </a>
-                    <a href="https://">NIKE
-                        <img src="https://cdna.lystit.com/cms/designer_rail_nike_c3045162ba.png">
-
-                    </a>
-                    <a href="https://">DOLCE & GABBANA
-                        <img src="https://cdna.lystit.com/cms/designer_rail_dolce_gabbana_bcb7049bb0.jpeg">
-
-                    </a>
-                </div>
-                <div class="indicators2">
-                    <span id="btn111" class="active"></span>
-                    <span id="btn222"></span>
-                    <span id="btn333"></span>
-                    <span id="btn444"></span>
-                </div>
-                </div>
-          
-
-
-            <div class="slider-box22">
-                <div id="slider22">
-                    <a href="http://">MONCLER 
-                        
-                        <img
-                            src='https://cdna.lystit.com/cms/designer_rail_moncler_bcdcdc131d.jpeg' >
-                        
-                    </a>
-                    <a href="http://"> VALENTINO
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_rail_valentino_421c18fab0.jpeg">
-                    </a>
-                    <a href="https://">BALENCIAGA EARRINGS
-                        <img
-                            src="https://cdna.lystit.com/cms/balenciaga_earrings_28c5ac2ab9.jpeg">
-                    </a>
-                    <h1>TRENDING NOW</h1>
-                    <a href="https://">SIMONE ROCHA EARRINGS
-                        <img
-                            src="https://cdna.lystit.com/cms/simone_rocha_earrings_d997cb6315.jpeg">
-                    </a>
-                    <a href="https://">AMIR JEANS
-                        <img
-                            src="https://cdna.lystit.com/cms/mens_amiri_jeans_98aeae1fcc.jpeg">
-                    </a>
-                    <a href="https://">FENDI JUMPSUITS
-                        <img src="https://cdna.lystit.com/cms/designer_category_fendi_jumpsuits_9f9ac55f4f.jpeg">
-
-                    </a>
-                    <a href="https://">DOLCE & GABBANA
-                        <img src="https://cdna.lystit.com/cms/designer_rail_dolce_gabbana_bcb7049bb0.jpeg">
-
-                    </a>
-                </div>
-                <div class="indicators22">
-                    <span id="btn1111" class="active"></span>
-                    <span id="btn2222"></span>
-                    <span id="btn3333"></span>
-                    <span id="btn4444"></span>
-                </div>
-                </div>
-            
-        
-
-
-
-            <div class="slider-box3">
-                <div id="slider3">
-                    <h1>HOT RIGHT NOW</h1>
-                    <a href="http://">GUCCI SUITS
-                        <img
-                            src='https://cdna.lystit.com/cms/mens_gucci_suits_af6c650ce2.jpeg'>
-                    </a>
-                    <a href="http://"> BALENCIAGA T-SHIRTS
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_category_mens_balenciaga_t_shirts_2c33757129.jpeg">
-                    </a>
-                    <a href="https://">CANALI COATS
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_category_mens_canali_coats_fcd56d8791.jpeg">
-                    </a>
-                    <a href="https://">CAMILLA DRESSES
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_category_camilla_dresses_ed5dbcc2dc.jpeg">
-                    </a>
-                    <a href="https://">CHANEL SHOULDER BAGS
-                        <img
-                            src="https://cdna.lystit.com/cms/designer_category_chanel_shoulder_bags_969f71f141.jpeg">
-                    </a>
-                    <a href="https://">BALENCIAGA SHOULDER BAGS 
-                        <img src="https://cdna.lystit.com/cms/balenciaga_shoulder_bags_3febdd5725.jpeg">
-
-                    </a>
-                    <a href="https://">GIORGIO ARMANI SUNGLASSES
-                        <img src="https://cdna.lystit.com/cms/designer_category_mens_giorgio_armani_sunglasses_80768d4fe9.jpeg">
-
-                    </a>
-                </div>
-                <div class="indicators3">
-                    <span id="btn11111" class="active"></span>
-                    <span id="btn22222"></span>
-                    <span id="btn33333"></span>
-                    <span id="btn44444"></span>
-                </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="onsale-tag">On sale</span>
+                    <img src="https://media.nastygal.com/i/nastygal/agg16728_light%20wash_xl?w=700&qlt=default&fmt.jp2.qlt=70&fmt=auto"
+                        class="product-thumb" alt="pro1-img1">
+                        <button class="card-btn"> wishlist </button>
                 </div>
 
-
-
-<div id="signh2">
-    <h2>SIGN UP FOR SMARTR SHOPPING</h2>
-</div>
-        <div id="sign">
-            <a href="http://"><button>Sign Up</button></a>
-        </div>
-        
-<div id="border"></div>
-
-
-        <div id="selection">
-            <div>
-            <ul class="list1"><h2> 1
-                    </h2><h4> The Biggest Selection
-                    </h4><p>Shop over 12,000 brands and stores in
-                        one place.</p><p>Find exactly what you
-                        want with powerful search and personal
-                        recommendations.</p></ul></div>
-
-                        <div>
-                <ul class="list1"><h2>
-                        2</h2><h4>The Hottest Products
-                    </h4><p>See what’s new and what’s trending.</p><p>Hit
-                        the
-                        heart to receive alerts on the
-                        latest drops from your favourite brands.</p></ul>
-                    </div>
-
-                    <div>
-                <ul class="list1">
-                    <h2> 3 </h2><h4> The Best Prices </h4><p>Compare
-                        prices
-                        and
-                        shipping options
-                        across thousands of stores.</p><p>Lyst
-                        members are notified when an item goes on sale.</p></li></ul>
-                    </div>
-        </div>
-
-       
-
-
-</div>
-</div>
-
-
-        <div><h4 class="lefttoright">Most Wanted</h4></div>
-                    <div class="main">
-                        <div class="part1">
-        
-                        <a  href="/shop/trends/nike-sb-dunk-low/">Nike Sb Dunk Low Sneakers</a>
-    
-    <a  href="/shop/trends/mens-plaid-pants/">Plaid Pants</a>
-                    
-    <a  href="/shop/trends/mens-wide-leg-sweatpants/">Mens Wide Leg Sweatpants</a>
-                    
-    <a  href="/shop/trends/mens-diemme-roccia/">Diemme Roccia Boots</a>
-                    
-    <a  href="/shop/trends/mens-veja-v12/">Veja V12 Sneakers</a></div>
-                    
-
-    <div class="part2">
-
-                    <a  href="/shop/trends/chunky-sneakers/">Chunky Sneakers</a>
-                
-
-                    <a  href="/shop/trends/ferragamo-varina/">Ferragamo Varina Flats</a>
-                
-                    <a  href="/shop/trends/red-peep-toe-heels/">Red Peep Toe Heels</a>
-                
-
-                    <a  href="/shop/trends/peplum-dresses/">Peplum Dresses</a>
-                <a  href="/shop/trends/fringe-tweed-jackets/">Fringe Tweed Jackets</a>
-                
+                <div class="product-info">
+                    <p class="product-short-des">Denim Short Sleeve Zip Front Boilersuit</p>
+                    <span class="actual-price">$29</span> <span class="price">$19</span>
+                </div>
             </div>
         </div>
-         
+    </section>
+</body>
 
-
-
-
-
-
-            
-        <div id="footer">
-    
-            <div id="firstone">
-                <div id="trust">
-                    <h1><span class="fa fa-star checked ogreen"></span></h1>
-                     <h1>Trustpilot</h1>
-                </div>
-               <h2>
-               
-               
-                <span class="fa fa-star checked green"></span>
-               <span class="fa fa-star checked green"></span>
-                <span class="fa fa-star checked green"></span>
-               <span class="fa fa-star checked green"></span>
-               <span class="fa fa-star checked green"></span>
-                
-              
-               
-                
-               </h2>
-                <p>TrustScore 4.5</p>
-                <p>2,673 reviews</p>
-                <i class="fa-brands fa-facebook-f social"></i>
-                <i class="fa-brands fa-instagram social"></i>
-               
-                <br>
-                <img id="imgs" src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png" alt="">
-               <p>Learn about the lyst for iphone,ipad and Andriod.</p>
-               <p>© 2022 Lyst</p>
-            </div>
-           <div id="writtenfooter">
-            <div>
-                <h3>INTERNATIONAL</h3>
-                <p>Lyst - AU</p>
-                <p>Lyst - CA</p>
-                <p>Lyst - UK</p>
-                <p>Lyst - Osterreich</p>
-                <p>Lyst - Schwiez</p>
-                <p>Lyst - Deutschland</p>
-                <p>Lyst - Espana</p>
-                <p>Lyst - France</p>
-                <p>Lyst - Italia</p>
-                <p>Lyst - China</p>
-                <p>Lyst - Belgie</p>
-                <p>Lyst - Nederland</p>
-            </div>
-            <div>
-                <h3>HELP AND INFO</h3>
-                <p>Help Center</p>
-                <p>About us</p>
-                <p>Shiping policy</p>
-                <p>Returns policy </p>
-                <p>Refund policy</p>
-                <p>Develpoers</p>
-                <p>Careers</p>
-                <p>Contact</p>
-                <p>Terms & conditions</p>
-                <p>Privacy & cookie policy</p>
-                <p>Intellectual property</p>
-                <p>Categories</p>
-                <p>Become a partner</p>
-                <p>Lyst Insights</p>
-                <p>Lyst News</p>
-                
-            </div>
-        
-           </div>
-        </div>
-
-
-       
-
-    </body>
 </html>
-<script src="./scripts/homescript.js" type="module"></script>
-<script
-      src="https://kit.fontawesome.com/24c494a6b6.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./scripts/header.js" type="module"></script>

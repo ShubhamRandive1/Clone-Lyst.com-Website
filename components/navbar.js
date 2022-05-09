@@ -1,4 +1,4 @@
-let navbar=()=>{
+let navbar = () => {
     return `
     <div id="upperNav">
         <div id="in-us">IN-US$</div>
@@ -24,18 +24,15 @@ let navbar=()=>{
     <div id="search"><i class="fa-solid fa-magnifying-glass"></i>
     <input type="text" id="query" placeholder="SEARCH (E.G. VALENTINO DRESSES)">
     </div>
-    <a href="mysearches.html"><div id="mySearches" class="swa">
-        <img src="./images/swallowtail.png" alt="" width="30" height="20">
-        <p>MY SEARCHES</p>
-    </div></a>
-    <a href="wishlist.html"><div id="wishlist" class="swa">
-         <i class="fa-regular fa-heart"></i>
-        <p>WISHLIST</p>
-    </div></a>
-    <a href="wishlist.html"><div id="alerts" class="swa">
-         <i class="fa-regular fa-bell"></i>
-        <p>ALERT</p>
-    </div></a>
+    <div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
+    <p>MY SEARCHES</p>
+    </div>
+    <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
+    <p>WISHLIST</p>
+    </div>
+    <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
+    <p>ALERT</p>
+    </div>
 </div>
     `;
 }

@@ -1,19 +1,28 @@
-#Project Clone Credo Beauty Website
+# Project Clone Credo Beauty Website
 Hello Everyone I am Delighted To Share The Collaborative Project during unit 3’s construct week ,Through Dedication , Hard work and resilience to Create something New, Together We have Created This Amazing project
 
-#Group Members:-
+# Group Members:-
 
-Manish Faujdar
-Nageshwar Tripathi
-Chandani Chandra
-Rashmi Patel
-Devend Sharma
-Shubham C Randive
+[Manish Faujdar](https://github.com/moneyforey)
+
+[Nageshwar Tripathi](https://github.com/nntivari11111)
+
+[Chandani Chandra](https://github.com/Chandani99)
+
+[Rashmi Patel](https://github.com/patel25rashmi)
+
+[Devend Sharma](https://github.com/devendjson)
+
+[Shubham C Randive](https://github.com/ShubhamRandive1)
+
+
+
+
 As This Was The Collaborative Group project everyone was thrilled and enthusiastic, We were Given lyst.com website To Clone Using HTML, Advance JavaScript(ES6+) , and CSS As Of This Website Features an e-commerce site for Fashion products, So even from the start it was a bit of challenging,
 
 But Apprently Everyone Had Knack For Challenges so all the members were excited and ready to start working on the website, but as we know we need to have a plan of action and with everyone supporting and respecting the decisions we get to the even grounds and started with the home page,
 
-#Shubham C Randive Has Created The Home Page and Chandani Chandra has Created The Navigation Bar Which Was
+# Shubham C Randive Has Created The Home Page and Chandani Chandra has Created The Navigation Bar Which Was
 
 ![Screenshot (52)](https://user-images.githubusercontent.com/57911117/167422436-7bd6a9c8-0d4f-4c7b-885c-36f3791ea351.png)
 
@@ -24,7 +33,7 @@ But Apprently Everyone Had Knack For Challenges so all the members were excited 
 
 The home page contains a navigation bar through which you can browse to any given page on a website, But first, you need to signup, or if you already registered then need to login to the website,
 
-Nageshwar Tripathi Has Created The Signup Page
+# Nageshwar Tripathi Has Created The Signup Page
 ![Screenshot (56)](https://user-images.githubusercontent.com/57911117/167422509-95cd006f-14e0-4a3d-b975-d12df4bf3855.png)
 ![Screenshot (59)](https://user-images.githubusercontent.com/57911117/167422515-ab50bf54-77fb-46c8-bc4d-81e6e442c52c.png)
 ![Screenshot (58)](https://user-images.githubusercontent.com/57911117/167422520-c7eee5fd-a342-4158-a2dc-3f77cb2c09fc.png)
@@ -32,7 +41,7 @@ Nageshwar Tripathi Has Created The Signup Page
 
 This Is The Login Page where your signup credentials will be matched and checked for authentication and You can Login Through Social Media Account as well.
 
-Chandani Chandra and Rashmi Patel Together They Have Created The Product page while Rashmi Creating The Data To Get the Products and Chandani Fetching it Dynamically
+# Chandani Chandra and Rashmi Patel Together They Have Created The Product page while Rashmi Creating The Data To Get the Products and Chandani Fetching it Dynamically
 
 
 ![Screenshot (60)](https://user-images.githubusercontent.com/57911117/167422548-c9bafeda-9661-49c7-bf49-15dcaa5cf3a6.png)
@@ -48,7 +57,7 @@ Women Products page
 Men Trending Products Page
 Women Trending Product Page
 Accessories
-Chandani Chandra Has Worked On The Product Page with adding the products to cart and showing it on the checkout page
+# Chandani Chandra Has Worked On The Product Page with adding the products to cart and showing it on the checkout page
 
 ![Screenshot (64)](https://user-images.githubusercontent.com/57911117/167422596-b109e06c-25cf-47c2-8d9b-8a5846b6e99d.png)
 
@@ -62,7 +71,7 @@ All The Pages are fully functional and have sorting options enabled from brand n
 
 And At last and important there is a cart page with functionality to sum total the price of the products and have coupons functionality enabled for discount option as well
 
-Manish Faujdar and Devend Sharma together has created Payment, Checkout and Delivery Pages
+# Manish Faujdar and Devend Sharma together has created Payment, Checkout and Delivery Pages
 
 ![Screenshot (68)](https://user-images.githubusercontent.com/57911117/167422650-67e7abe6-ef83-428b-beab-ddb9d7ffb54c.png)
 ![Screenshot (69)](https://user-images.githubusercontent.com/57911117/167422651-8f1f8126-997c-401a-80e7-0180f6f9d9cf.png)
@@ -72,9 +81,7 @@ Manish Faujdar and Devend Sharma together has created Payment, Checkout and Deli
 
 
 
-then there is the payment page after successfully entering the card details you will redirect to the checkout page where you have to input the card details then after verifying Details there will order a successful alert after which you will be redirected to home page.
+Then there is the payment page after successfully entering the card details you will redirect to the checkout page where you have to input the card details then after verifying Details there will order a successful alert after which you will be redirected to home page.
 
-#References:-
-
-
-#Netlify Link:-https://astonishing-naiad-bfc963.netlify.app
+# References:-
+# Netlify Link:-https://astonishing-naiad-bfc963.netlify.app

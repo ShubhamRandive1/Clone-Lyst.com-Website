@@ -24,13 +24,13 @@ let navbar = () => {
     <div id="search"><i class="fa-solid fa-magnifying-glass"></i>
     <input type="text" id="query" placeholder="SEARCH (E.G. VALENTINO DRESSES)">
     </div>
-   <a href="./wishlist.html" href="./mySearches.html" href="./alert.html"><div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
+   <a href="./mySearches.html"><div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
     <p>MY SEARCHES</p>
-    </div>
-    <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
+    </div></a>
+   <a href="./wishlist.html" <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
     <p>WISHLIST</p>
-    </div>
-    <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
+    </div></a>
+   <a href="./alert.html" <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
     <p>ALERT</p>
     </div></a>
 </div>

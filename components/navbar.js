@@ -24,7 +24,7 @@ let navbar = () => {
     <div id="search"><i class="fa-solid fa-magnifying-glass"></i>
     <input type="text" id="query" placeholder="SEARCH (E.G. VALENTINO DRESSES)">
     </div>
-    <div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
+   <a href="./wishlist.html" href="./mySearches.html" href="./alert.html"><div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
     <p>MY SEARCHES</p>
     </div>
     <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
@@ -32,7 +32,7 @@ let navbar = () => {
     </div>
     <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
     <p>ALERT</p>
-    </div>
+    </div></a>
 </div>
     `;
 }

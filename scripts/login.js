@@ -1,4 +1,3 @@
-
 document.getElementById("form").addEventListener("submit",myfunc)
 
 let arr=JSON.parse(localStorage.getItem("signUp"))||[];

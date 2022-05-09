@@ -195,8 +195,8 @@
     var procedTopay=document.querySelector("#proceedPay");
     procedTopay.addEventListener("click", paymentpage);
     function paymentpage(){
-        localStorage.setItem("mamaearthTotalPrice",total.innerText);
-        window.location.href="paymentPage.html";
+        localStorage.setItem("lystTotalPrice",total.innerText);
+        window.location.href="checkout.html";
     }
 
  

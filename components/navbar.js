@@ -27,10 +27,10 @@ let navbar = () => {
    <a href="./mySearches.html"><div id="mySearches" class="swa"><img src="./images/swallowtail.png" alt="" width="30" height="20">
     <p>MY SEARCHES</p>
     </div></a>
-   <a href="./wishlist.html" <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
+   <a href="./wishlist.html"> <div id="wishlist" class="swa"><i class="fa-regular fa-heart"></i>
     <p>WISHLIST</p>
     </div></a>
-   <a href="./alert.html" <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
+   <a href="./alert.html"> <div id="alerts" class="swa"><i class="fa-regular fa-bell"></i>
     <p>ALERT</p>
     </div></a>
 </div>

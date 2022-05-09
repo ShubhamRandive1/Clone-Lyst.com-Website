@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        #main{
+            width: 90%;
+            margin: auto;
+        }
+        #mainlogin{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+            }
+            #mainlogin>div{
+                padding-left: 10px;
+            }   
+            #contact{
+               font-family:  Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+               margin-bottom: 20px;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 20px;
+            }
+            #contact>div{
+                border: 1px solid slategray;
+                text-align: center;
+                padding-top: 10px;
+            } 
+            #bwdiv{
+                text-align: center;
+            }
+            button{
+                margin-top: 10px;
+                margin-bottom: 20px;
+                background-color: black;
+                color: white;
+                padding: 10px 5px 10px 5px;
+            }
+            input{
+                margin-top: 10px;
+                padding: 10px 5px 10px 5px;
+            }
+            #hrbwdiv{
+                width: 0%;
+            }
+    </style>
+</head>
+<body>
+   <div id="main">
+    <hr>
+    <a href="cart.html"><p>< Back to Cart</p></a>
+    <div id="mainlogin">
+        <div id="wlogin">
+            <h2>YOU ALREADY HAVE A PASSWORD</h2>
+            <p>
+                Please sign in here by entering your email address and your password. By signing in, your account information, including saved addresses, will be available throughout the checkout.
+            </p>
+            <input id="em" type="email" placeholder="Email address*" required>
+            <br>
+            <input id="pass" type="password" placeholder="Password*" required>
+            <br>
+            <p>*required field</p>
+            <p>Did you forget your password ?</p>
+            <button onclick="myfunction1()">PROCEED WITH LOGIN</button>
+        </div>
+        <hr id="hrbwdiv">
+        
+        <div id="wologin">
+            <h2>YOU DO NOT HAVE A PASSWORD YET</h2>
+            <p>Orders can be placed without a password, too.</p>
+            <button onclick="myfunction2()">PROCEED WITHOUT LOGIN</button>
+        </div>
+    </div>
+    <hr>
+    <p id="bwdiv">You can also place your order via telephone.</p>
+    <div id="contact">
+        <div id="call">
+            <i class="fa-solid fa-phone"></i>
+            <h3>CALL US</h3>
+            <p>8094906950</p>
+            <p>Available 24/7</p>
+        </div>
+        <div id="mail">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>MAIL US</h3>
+            <P>moneyforey786@gmail.com</P>
+        </div>
+    </div>
+    <hr>
+   </div>
+</body>
+</html>
+
+<script>
+function myfunction1(){
+    console.log( "i in")
+    let em = document.getElementById("em").value;
+    let pass = document.getElementById("pass").value;
+    
+    if(em == "" || pass == "")
+    {
+        alert("Enter Credentials")
+    }
+    else{
+        alert("Login Successfully")
+        window.location.assign("payment.html")
+    }
+}
+
+function myfunction2(){
+    window.location.assign("payment.html")
+}
+</script>

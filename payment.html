@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 90%;
+            margin: auto;
+            font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        input{
+            padding: 10px 5px 10px 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            padding: 10px 5px 10px 5px ;
+            margin-top: 10px;
+            color: white;
+            background-color: black;
+        }
+        select{
+            padding: 10px 5px 10px 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #M{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 10px 10px 10px 10px;
+        }
+        #P{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 10px 10px 10px 10px;
+        }
+        #finalp{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #BS>button{
+            width: 80px;
+        }
+    </style>
+</head>
+<body>
+    <a href="cart.html"><p> < back to cart </p></a>
+   <div id="main">
+       <div id="add">
+         <h3>SHIPPING ADDRESS</h3>
+         <P>Please enter your shipping address in the form below.</P>
+         <input type="radio" name="des" id="Ms." value="Ms."> <label for="Ms.">Ms.</label>
+         <input type="radio" name="des" id="Mrs." value="Mrs."> <label for="Mrs.">Mrs.</label>
+         <input type="radio" name="des" id="Mr." value="Mr."> <label for="Mr.">Mr.</label>
+         <br>
+         <input type="text" placeholder="Name*" required>
+         <br>
+         <input type="text" placeholder="street*" required>
+         <br>
+         <input type="text" placeholder="address*" required>
+         <br>
+         <input type="number" placeholder="postcode*" required>
+         <br>
+         <input type="text" placeholder="city*" required>
+         <br>
+         <select name="country" id="country" >
+             <option value=""><----Select Country----></option>
+             <option value="India">India</option>
+             <option value="Canada">Canada</option>
+             <option value="Austrelia">Austrelia</option>
+             <option value="USA">"USA</option>
+             <option value="UK">UK</option>
+             <option value="UAE">UAE</option>
+             <option value="China">China</option>
+             <option value="Japan">Japan</option>
+             <option value="Nepal">Nepal</option>
+             <option value="Bhutan">Bhutan</option>
+         </select>
+         <br>
+          <button onclick="myfunctionAdd()">ADD SHIPPING ADDRESS</button>
+       </div>
+       <hr>
+       <div id="pay">
+           <div id="M">
+            <h3>PAYMENT METHOD</h3>
+            <input name="method" type="radio"> <label for="UPI">UPI</label>
+            <br>
+            <input name="method" type="radio"> <label for="UPI">Wallet</label>
+            <br>
+            <input name="method" type="radio"> <label for="UPI">Credit/Debit/ATM Card</label>
+            <br>
+            <input name="method" type="radio"> <label for="UPI">EMI</label>
+            <br>
+            <input name="method" type="radio"> <label for="UPI">Cash on Delivery</label>
+           </div>
+          
+           <p>100% Safe & Secure Payments</p>
+          <div id="P">
+           
+            <h4>Payment details</h4>
+            <p>Price:- 1200 $</p>
+            <p>Delivery charges:- FREE</p>
+            <hr>
+            <p>Amount Payable:- 1200 $</p>
+          </div>
+          <div id="finalp">
+           <div id="PS">
+               <h5>1200 $</h5>
+           </div>
+
+           <div id="BS">
+               <button onclick="myfunctionfinal()">Pay</button>
+           </div>
+          </div>
+
+          
+       </div>
+
+   </div> 
+</body>
+</html>
+
+<script>
+   function myfunctionAdd(){
+       alert("Address is sucessfully added")
+       alert("Please Select payment method")
+
+   }
+
+   function myfunctionfinal(){
+       alert("Payment Successfully done");
+       alert("Your Order is placed")
+       window.location.assign("index.html")
+   }
+</script>

@@ -5,60 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a9dbdcc6e4.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/common.css">
   </head>
   <body>
-      <div class="main">
-             <div>  
-                <div class="sign">
-                <button><a href="signup.html">New to Lyst?</a> </button>
-                    <button><a href="login.html">Already a member</a> </button>
-                  </div>
+    <div id="navbar"></div>
+    <div class="main">
+      <div>
+        <div class="sign">
+          <button><a href="signup.html">New to Lyst?</a> </button>
+          <button><a href="login.html">Already a member</a> </button>
+        </div>
 
-                  <div><h3>Search thousands of fashion brands and stores all in one place</h3>
-                  <p>We just need a few details from you first.</p></div>
-                
-                  <form id="form">
-                    <label >Email address</label>
-                    <input type="text" id="name" placeholder="Enter your email address" />
-                    <label >Password</label>
-                    <input type="text "  id="password" placeholder="Enter your password">
-                    <div id="ss"></div>
-                    <input type="checkbox" name="marketing_emails" id="box">
-                    <label >I would like to hear about products, services, and sales,
-                       including personalized email alerts from Lyst. You can unsubscribe at any time.</label>
-                    <input type="submit" value="Join Lyst" />
-                  </form>
-                  <p>or</p>
-                        <button><a href=""> Continue With Facebook</a></button>
-                        <button> <a href=""> Continue With Google  </a></button>
+        <div><h3>Search thousands of fashion brands and stores all in one place</h3>
+          <p>We just need a few details from you first.</p></div>
 
-                        <div class="down">By creating an account, you consent to Lyst’s<span> Terms & Conditions.</span>
-                           To learn more about how Lyst uses and protects your personal data,
-                            please read Lyst’s<span> Privacy Policy.</span></div>
-              </div>
+        <form id="form">
+          <label>Email address</label>
+          <input type="text" id="name" placeholder="Enter your email address" />
+          <label>Password</label>
+          <input type="text" id="password" placeholder="Enter your password">
+          <div id="ss"></div>
+          <input type="checkbox" name="marketing_emails" id="box">
+          <label>I would like to hear about products, services, and sales,
+            including personalized email alerts from Lyst. You can unsubscribe
+            at any time.</label>
+          <input type="submit" value="Join Lyst" />
+        </form>
+        <p>or</p>
+        <button><a href=""> Continue With Facebook</a></button>
+        <button> <a href=""> Continue With Google </a></button>
 
-              <div class="right">
-                  <div>
-                <strong>As a Lyst member you can…</strong>
-                <ul style="list-style:none;">
-                    <li>
-<i class="fa-solid fa-bookmark"></i> <span>Save your searches</span></li>
-                        <li>
- <i class="fa-solid fa-heart"></i><span>Create a wishlist</span></li>
-                         <li>
-<i class="fa-solid fa-bell"></i><span>Get alerts on your items</span></li>
-                </ul>
-            </div>
-               </div>
-     </div>
-   
-  
+        <div class="down">By creating an account, you consent to Lyst’s<span>
+            Terms & Conditions.</span>
+          To learn more about how Lyst uses and protects your personal data,
+          please read Lyst’s<span> Privacy Policy.</span></div>
+      </div>
+
+      <div class="right">
+        <div>
+          <strong>As a Lyst member you can…</strong>
+          <ul style="list-style:none;">
+            <li>
+              <i class="fa-solid fa-bookmark"></i> <span>Save your searches</span></li>
+            <li>
+              <i class="fa-solid fa-heart"></i><span>Create a wishlist</span></li>
+            <li>
+              <i class="fa-solid fa-bell"></i><span>Get alerts on your items</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>
 
-<script src="signup.js"></script>
+<script src="./scripts/signup.js"></script>
 <script
-      src="https://kit.fontawesome.com/24c494a6b6.js"
-      crossorigin="anonymous"
-    ></script>
+  src="https://kit.fontawesome.com/24c494a6b6.js"
+  crossorigin="anonymous"></script>
+
+<script src="./scripts/header.js" type="module"></script>

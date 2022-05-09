@@ -197,6 +197,9 @@ color: rgb(231, 225, 225);
         background-color: white;
         margin: auto;
     }
+    .right{
+        margin-top:5%;
+    }
     }
     @media all and (min-width: 321px) and (max-width:420px){
     
@@ -227,6 +230,9 @@ color: rgb(231, 225, 225);
            width: 60%;
             background-color: white;
             margin: auto;
+        }
+        .right{
+            margin-top:5%;
         }
     
     

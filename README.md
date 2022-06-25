@@ -1,4 +1,4 @@
-# Project Clone Credo Beauty Website
+# Project Clone Lyst.com Website
 Hello Everyone I am Delighted To Share The Collaborative Project during unit 3’s construct week ,Through Dedication , Hard work and resilience to Create something New, Together We have Created This Amazing project
 
 # Group Members:-

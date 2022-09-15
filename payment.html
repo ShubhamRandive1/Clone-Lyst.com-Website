@@ -57,15 +57,15 @@
          <input type="radio" name="des" id="Mrs." value="Mrs."> <label for="Mrs.">Mrs.</label>
          <input type="radio" name="des" id="Mr." value="Mr."> <label for="Mr.">Mr.</label>
          <br>
-         <input type="text" placeholder="Name*" required>
+         <input type="text" id="name" placeholder="Name*" required>
          <br>
-         <input type="text" placeholder="street*" required>
+         <input type="text" id="street" placeholder="street*" required>
          <br>
-         <input type="text" placeholder="address*" required>
+         <input type="text" id="adderss" placeholder="address*" required>
          <br>
-         <input type="number" placeholder="postcode*" required>
+         <input type="number" id="postcode" placeholder="postcode*" required>
          <br>
-         <input type="text" placeholder="city*" required>
+         <input type="text" id="city" placeholder="city*" required>
          <br>
          <select name="country" id="country" >
              <option value=""><----Select Country----></option>
@@ -129,9 +129,35 @@
     document.getElementById("totalamount").innerText="Total Amount:-"+"  "+totalAmount+"$";
     document.getElementById("payable").innerText="Payable Amount:-"+"  "+totalAmount+"$";
     document.getElementById("priceTotal").innerText="Price:-"+"  "+totalAmount+"$";
+
+    let name = document.getElementById("name").value;
+    let street = document.getElementById("street").value;
+    let adderss = document.getElementById("address").value;
+    let postcode = document.getElementById("postcode").value;
+    let city = document.getElementById("city").value;
+
    function myfunctionAdd(){
+    
+    
+    if(name==""){
+        alert("enetr name");
+    }
+    else if(street==""){
+        alert("Enter street ")
+    }
+    else if(adderss==""){
+        alert("Enter address ")
+    }
+    else if(postcode==""){
+        alert("Enter postcode ")
+    }
+    else if(city==""){
+        alert("Enter city ")
+    }
+    else{
        alert("Address is sucessfully added")
        alert("Please Select payment method")
+    }
 
    }
 

@@ -9,23 +9,30 @@ function myfunc() {
 
   let Email = document.getElementById("name").value;
   let pass = document.getElementById("password").value;
-
-  let obj = {
-    Email,
-    pass,
+  if(Email==""){
+    alert("Enter email");
   }
-  if (Email != "" && pass != "") {
+  else if(pass==""){
+    alert("Enter password");
+  }
+  else{
+    let obj = {
+      Email,
+      pass,
+    }
+    if (Email != "" && pass != "") {
 
-    arr.push(obj);
+      arr.push(obj);
 
 
-    localStorage.setItem("signUp", JSON.stringify(arr))
-    alert("Account Created Successfully");
-    window.location.href = "login.html"
-  } else {
-    let p = document.createElement("p");
-    p.innerText = "input Credential"
-    p.style.color = "red";
-    document.getElementById("ss").append(p)
+      localStorage.setItem("signUp", JSON.stringify(arr))
+      alert("Account Created Successfully");
+      window.location.href = "login.html"
+    } else {
+      let p = document.createElement("p");
+      p.innerText = "input Credential"
+      p.style.color = "red";
+      document.getElementById("ss").append(p)
+    }
   }
 }

@@ -196,7 +196,7 @@
     procedTopay.addEventListener("click", paymentpage);
     function paymentpage(){
         localStorage.setItem("lystTotalPrice",total.innerText);
-        window.location.href="checkout.html";
+        window.location.href="payment.html";
     }
 
  
